@@ -1,0 +1,792 @@
+1 - Check whether a number is Positive or negative or zero.
+Input Size : 1 <= N <= 100000
+
+case= Test1
+input =12
+output =Positive
+case= Test2
+input =-12
+output =Negative
+case= Test3
+input =98475
+output =Positive
+
+2 - Check whether a number is even or odd. 
+If the input is not valid print invalid.
+Input Size : 1 <= N <= 100000
+Sample Testcase :
+INPUT
+3
+OUTPUT
+Odd   
+
+3 - Check whether a character is vowel or consonant.
+Print invalid if the input is invalid.
+Sample Testcase :
+INPUT
+a
+OUTPUT
+Vowel   
+
+4 - Check whether a character is an alphabet or not. (Print 'Alphabet' or 'No').
+Sample Testcase :
+INPUT
+a
+OUTPUT
+Alphabet   
+
+5 - Find the largest number among three numbers entered by user.
+case= Test1
+input =1
+2
+4
+output =4
+case= Test2
+input =23
+12
+3
+output =23
+ 
+
+6 - Check whether the year is a leap year or not.
+Sample Testcase :
+INPUT
+2016
+OUTPUT
+yes   
+
+7 - Write a program to print 'Hello' word N times given N.
+Sample Testcase :
+INPUT
+2
+OUTPUT
+Hello
+Hello   
+
+8 - Calculate sum of natural numbers upto N.
+Sample Testcase :
+INPUT
+2
+OUTPUT
+3   
+
+9 - Given 2 numbers N,K and an array of N integers, find the sum of the first 'K' integers.
+Sample Testcase :
+INPUT
+5 2
+1 2 3 4 5
+OUTPUT
+3   
+
+10 - Count number of digits of an integer.
+Sample Testcase :
+INPUT
+548
+OUTPUT
+3
+
+11 - Calculate the power of a number given a number and the power.
+Sample Testcase :
+INPUT
+2 3
+OUTPUT
+8   
+
+12 - Check whether a number is palindrome or not. Print yes if its a palindrome no if its not.
+Input Size :  N <= 1000
+Sample Testcase :
+INPUT
+121
+OUTPUT
+yes   
+
+13 - Check whether a number is prime or not. Print yes if its a prime, no if it is not.
+Input Size : N <= 1000
+Sample Testcase :
+INPUT
+11
+OUTPUT
+yes   
+
+14 - Given 2 numbers(interval) display(space separated) odd numbers between two intervals.
+Input Size : N,Q <= 100000
+Sample Testcase :
+INPUT
+1 6
+OUTPUT
+3 5  
+
+15 - Display even numbers between two intervals.
+Sample Testcase :
+INPUT
+6 9
+OUTPUT
+8   
+
+16 - Display Prime numbers between two intervals.
+Sample Testcase :
+INPUT
+1 10
+OUTPUT
+2 3 5 7   
+
+17 - Given a number N, check whether it is an armstrong number. print yes/no.
+Input Size : N <= 100000
+Sample Testcase :
+INPUT
+371
+OUTPUT
+yes   
+
+18 - Display armstrong number between two intervals.
+Sample Testcase :
+INPUT
+150 160
+OUTPUT
+153    
+
+19 - Find factorial of a number.
+Sample Testcase : 
+INPUT
+5
+OUTPUT
+120  
+
+20 - Given a number N find first 5 multiples and print it
+Sample Testcase :
+INPUT
+5
+OUTPUT
+5 10 15 20 25  
+
+21 - Find the sum of an Arithmetic Progression till N terms given N,A,D.
+Input Size : 1 <= N,A,D <= 100000
+Sample Testcase :
+INPUT
+3 1 1
+OUTPUT
+6   
+
+22 - Given a number N and an array of N integers, print the maximum element.
+Input Size : 1 <= N <= 100000
+Sample Testcase :
+INPUT
+3
+1 2 3
+OUTPUT
+3  
+
+23 - Given a number N and an array of N integers, print the minimum element.
+Input Size : 1 <= N <= 100000
+Sample Testcase :
+INPUT
+3
+1 2 3
+OUTPUT
+1   
+
+24 - Given a number N and an array of N integers, print the sorted array.
+Input Size : 1 <= N <= 1000
+Sample Testcase :
+INPUT
+3
+2 1 3
+OUTPUT
+1 2 3   
+
+25 - Given a number N and an array of N integers, print the median element.
+Input Size : 1 <= N <= 1000
+Sample Testcase :
+INPUT
+3
+2 1 3
+OUTPUT
+2   
+
+26 - Do problem 24 with improved Input constraints. (HINT: Read about Quick and Merge Sort and their time complexity analysis)
+Input Size : 1 <= N <= 100000
+Sample Testcase :
+INPUT
+3
+2 1 3
+OUTPUT
+1 2 3 
+
+27 - Validate if a given string is numeric.
+Sample Testcase :
+INPUT
+2
+OUTPUT
+Yes  
+
+28 - Given a number N and an array of N elements, print each element with its index.
+Sample Testcase :
+INPUT
+3
+2 1 3
+OUTPUT
+2 0
+1 1
+3 2   
+
+29 - Given Time in minutes, print it in hours and minutes.
+Sample Testcase :
+INPUT
+52
+OUTPUT
+0 52   
+
+30 - Given two times in hr:min format subtract(abs value) them and print in the same format.
+Sample Testcase :
+INPUT
+5 50
+4 50
+OUTPUT
+1 0   variables conditional operators Math looping  
+
+31 - Given a sentence count the number of characters in given (without counting the space).
+Sample Testcase :
+INPUT
+laptop is good
+OUTPUT
+12   
+
+32 - Count the number of words in given line.
+Input Size : |s| <= 1000
+Sample Testcase :
+INPUT
+Hello world
+OUTPUT
+2   
+
+33 - Count the number of spaces in given line.
+Input Size : |s| <= 1000
+Sample Testcase :
+INPUT
+HH sadsd
+OUTPUT
+1  
+
+34 - Count the number of lines in a given paragraph.
+Input Size : |s| <= 1000
+Sample Testcase :
+INPUT
+Hello world.Goodbye
+OUTPUT
+2   
+
+35 - Count the number of numeric characters in a given string.
+Input Size : |s| <= 1000
+Sample Testcase :
+INPUT
+Helloworld.123
+OUTPUT
+3   
+
+36 - Count the number of special characters in a given string.
+Input Size : |s| <= 1000
+Sample Testcase :
+INPUT
+Helloworld.123
+OUTPUT
+1   
+
+37 - Write a program to swap 2 numbers.
+Input Size : n <= 100000 
+Sample Testcase :
+INPUT
+37 73
+OUTPUT
+73 37   
+
+38 - Write a program to swap 2 numbers using bitwise operators.
+Sample Testcase :
+INPUT
+150 160
+OUTPUT
+160 150  
+
+39 - Find the maximum among 10 numbers.
+Sample Testcase :
+INPUT
+5 4 3 2 1 7 6 10 8 9
+OUTPUT
+10   
+
+40 - Given a number N find print fibonacci series of N numbers.
+Sample Testcase :
+INPUT
+5
+OUTPUT
+1 1 2 3 5   
+
+41 - Given a string S and a number K, print the string K times.
+Sample Testcase :
+INPUT
+laptop 3
+OUTPUT
+laptop
+laptop
+laptop   
+
+42 - Write a program to compare two strings without using strcmp() function, print the greater string or if equal print any one string.
+Input Size : |s| <= 1000
+Sample Testcase :
+INPUT
+hello world
+OUTPUT
+world   
+
+43 - Write a program to concatenate two strings without using strcat() function.
+Input Size : |s| <= 1000
+Sample Testcase :
+INPUT
+hello world
+OUTPUT
+helloworld  
+
+44 - Given a number N check whether it is in the range [1,10](inclusive).
+Sample Testcase :
+INPUT
+9
+OUTPUT
+yes   
+
+45 - Count the number of numeric digits in a number given.
+Input Size : |N| <= 100000000000
+Sample Testcase :
+INPUT
+123
+OUTPUT
+3   
+
+46 - Given a number N, print the next number.
+Input Size : |N| <= 10000000
+Sample Testcase :
+INPUT
+123
+OUTPUT
+124   
+
+47 - Given a number N followed by N numbers find the  lowest and highest  number in the array.
+Input Size : N <= 10000 
+Sample Testcase :
+INPUT
+3
+7 3 2
+OUTPUT
+2 7  
+
+48 - Given a number N followed by N numbers print the average(integer) of the N numbers.
+Sample Testcase :
+INPUT
+5
+1 2 3 4 5
+OUTPUT
+3   
+
+49 - Given 2 numbers find their sum.
+Sample Testcase :
+INPUT
+5 5
+OUTPUT
+10 
+
+50 - Given a number N find whether it is a power of 2.
+Sample Testcase :
+INPUT
+4
+OUTPUT
+yes 
+
+51 - Given a number N, print all its digits(in same order).
+Sample Testcase :
+INPUT
+123
+OUTPUT
+1 2 3 
+
+52 - Given a number N, print it in words.
+Input Size : 1 <= N <= 10
+Sample Testcase :
+INPUT
+1
+OUTPUT
+One
+
+53 - Given a number N, print the sum of all its digits.
+Sample Testcase :
+INPUT
+123
+OUTPUT
+6 
+
+54 - Given a number N, print the nearest even number which is less than or equal to N.
+Sample Testcase :
+INPUT
+123
+OUTPUT
+122 
+
+55 - Given 2 numbers N,M. Print whether the product of two numbers is even or odd.
+Sample Testcase :
+INPUT
+12 3
+OUTPUT
+even 
+
+56 - Given a string S, check if it contains both alphabets and numbers.
+Input Size :  |s| <= 1000
+Sample Testcase :
+INPUT
+Helloworld.123
+OUTPUT
+Yes 
+
+57 - Given 2 numbers N and K followed by n numbers print the number of repetitions of K.
+Sample Testcase :
+INPUT
+4 3
+1 2 3 3
+OUTPUT
+2 
+
+58 - Given 2 numbers N and K followed by n numbers check if K exists.
+Sample Testcase :
+INPUT
+4 2
+1 2 3 3
+OUTPUT
+yes 
+
+59 - Count number of digits of an integer.
+Sample Testcases :
+INPUT
+548
+OUTPUT
+3 
+
+60 - Write a program to print the sum of the first K natural numbers.
+Input Size : n <= 100000
+Sample Testcase :
+INPUT
+3
+OUTPUT
+6 
+
+61 - Given a string S and a number K, print the first K characters.
+Sample Testcase :
+INPUT
+laptop 3
+OUTPUT
+lap 
+
+62 - Given a string S, check whether it is in binary representation.
+Sample Testcase :
+INPUT
+1100101
+OUTPUT
+yes 
+
+63 - Find the minimum among 10 numbers.
+Sample Testcase :
+INPUT
+5 4 3 2 1 7 6 10 8 9
+OUTPUT
+1 
+
+64 - Given 2 numbers N and M add it and check whether the result is odd or even.
+Sample Testcase :
+INPUT
+9 2
+OUTPUT
+odd 
+
+65 - Given a string S, print it without using semicolon in your program.
+Sample Testcase :
+INPUT
+hello world
+OUTPUT
+hello world 
+
+66 - Given a number N, check whether it is prime.
+Sample Testcase :
+INPUT
+123
+OUTPUT
+no 
+
+67 - Given a number N, find a nearest greater multiple of 10.
+Input Size : n <= 10000
+Sample Testcase :
+INPUT
+3
+OUTPUT
+10 
+
+68 - Given a number N, find whether it is a multiple of 7.
+Sample Testcase :
+INPUT
+14
+OUTPUT
+yes 
+
+69 - Given 2 numbers N,M. Find their difference and check whether it is even or odd.
+Sample Testcase :
+INPUT
+5 5
+OUTPUT
+even
+
+70 - Given a number N, find whether its nearest greater power of 2.
+Input Size : N <= 1000
+Sample Testcase :
+INPUT
+4
+OUTPUT
+8 
+
+71 - Given a string S, check if it is a palindrome. Print yes/no.
+Sample Testcase :
+INPUT
+lappal
+OUTPUT
+yes 
+
+72 - Given a string S, check whether it has a vowel in it. Print yes/no.
+Sample Testcase :
+INPUT
+btabb
+OUTPUT
+yes 
+
+73 - Given a number N and 2 numbers L and R. Check whether N is between L and R. Print yes/no.
+Sample Testcase :
+INPUT
+3
+2 6
+OUTPUT
+yes 
+
+74 - Given a decimal number(only 1 decimal place) round it off to nearest greater integer and print it.
+Sample Testcase :
+INPUT
+2.6
+OUTPUT
+3 
+
+75 - Given a string S, print it after changing the middle element to * (if the length of the string is even, change the 2 middle elements to *).
+Sample Testcase :
+INPUT
+hello
+OUTPUT
+he*lo 
+
+76 - Given a number N, check whether it is composite.
+Sample Testcase :
+INPUT
+123
+OUTPUT
+yes
+
+77 - Given a number N, print its factors.
+Input Size : n<=1000 
+Sample Testcase :
+INPUT
+6
+OUTPUT
+1 2 3 6 
+
+78 - Given a number N, find whether it is a multiple of 13.
+Sample Testcase :
+INPUT
+26
+OUTPUT
+yes 
+
+79 - Given 2 numbers N,M. Find their product and check whether it is a perfect square.
+Sample Testcase :
+INPUT
+5 5
+OUTPUT
+yes 
+
+80 - Given a number N, print the odd digits in the number(space seperated).
+Input Size : N <= 100000
+Sample Testcase :
+INPUT
+2143
+OUTPUT
+1 3
+
+81 - Kabali is a brave warrior who with his group of young ninjas moves from one place to another to fight against his opponents. Before Fighting he just calculates one thing, the difference between his ninja number and the opponent's ninja number. From this difference he decides whether to fight or
+not. Kabali's ninja number is never greater than his opponent.
+Input
+The input contains two numbers in every line. These two numbers in each line denotes the number ninjas in Kabali's clan and his opponent's clan or vice versa. The input numbers are not greater than 2^32. Input is terminated by `End of File'. 
+Output
+For each line of input, print the difference of number of ninjas between Kabali's clan and his opponent's clan. Each output should be in seperate line.
+Sample Testcase :
+INPUT
+10 12
+10 14
+100 200
+OUTPUT
+2
+4
+100 
+
+82 - Given length L and breadth B of a farm, print the area of the farm upto 5 decimal decimals(print the answer upto 5 decimal places).
+Sample Testcase :
+INPUT
+1.626 2.31
+OUTPUT
+3.75606 
+
+83 - "ooooooooooooooh!
+If I could do the easy mathematics like my school days!!
+I can guarantee, that I'd not make any mistake this time!!"
+Says a smart university student!!
+But his teacher even smarter "Ok! I'd assign you such projects in your software lab. Don't be so sad."
+"Really!!" the  students  feels  happy. And  he  feels  so happy that he cannot see the smile in his teacher's face. The  rst project for the poor student was to make a calculator that can just perform the basic arithmetic operations. But like many other university students he doesn't like to do any project by himself. He just wants to collect programs from here and there. As you are a friend of him, he asks you to write the program. But, you are also intelligent enough to tackle this kind of people. You agreed to write only the (integer) division and mod (%) operations for him.
+Input
+Input  is  a  sequence  of  lines. Each  line  will contain an input number. One or more spaces. A  sign  ( division or  mod). Again  spaces. And  another  input  number.  Both the input numbers are non-negative  integer.
+Output
+A line for each input, each containing an integer. See the sample input and output. Output should not contain any extra space.
+INPUT
+110 / 100
+99 % 10
+2147483647 / 2147483647
+2147483646 % 2147483647
+OUTPUT
+1
+9
+1
+2147483646 
+
+84 - Given a character Ch, print its ASCII value.
+Sample Testcase :
+INPUT
+a
+OUTPUT
+97 
+
+85 - Given a string S, print 2 strings one containing all characters in odd positions and other containing all characters in even positions.
+Sample Testcase :
+INPUT
+XCODE
+OUTPUT
+XOE CD 
+
+86 - Given a string S, check if it is an isogram.
+Input Size : |s| <= 1000
+Sample Testcase :
+INPUT
+Helloworld
+123
+OUTPUT
+No
+Yes 
+
+87 - Given 2 numbers N,M. Find the GCD.
+Sample Testcase :
+INPUT
+10 5
+OUTPUT
+5 
+
+88 - Given 2 numbers N,M. Find the LCM.
+Sample Testcase :
+INPUT
+10 5
+OUTPUT
+10 
+
+89 - Find a string S, print it in lexicographical order.
+Sample Testcase :
+INPUT
+5432
+OUTPUT
+2345 
+
+90 - Given an alphanumeric string, print all the numbers in the string.
+Sample Testcase :
+INPUT
+5GUVI12
+OUTPUT
+512 
+
+91 - Write a program to calculate the total surface area and volume of cuboid. Input contains three space separated positive integers L, B, H denoting the length, width and height of cuboid respectively.
+Sample Testcase :
+INPUT
+1 2 3
+OUTPUT
+22 6 
+
+92 - Given a number N and followed by n numbers, find the sum of all the numbers.
+Sample Testcase :
+INPUT
+4
+1 2 3 3
+OUTPUT
+9 
+
+93 - Given a temperature in Celsius, convert and print in Kelvin.
+Sample Testcase :
+INPUT
+21
+OUTPUT
+294 
+
+94 - Given 2 numbers N and K followed by N numbers, print the Kth number.
+Sample Testcase :
+INPUT
+4 2
+1 2 3 4
+OUTPUT
+2 
+
+95 -  Write a program to find the simple interest for given principal amount P, time T, at rate R. Calculate floor value.
+Sample Testcase :
+INPUT
+100 3 4
+OUTPUT
+12 
+
+96 - Given 3 numbers A,B,C. Find the sum of AP with a=A, d=B and n=C
+Sample Testcase :
+INPUT
+1 1 2
+OUTPUT
+3 
+
+97 - Given a number N, print its reverse.
+Input Size : n <= 1000 
+Sample Testcase :
+INPUT
+26
+OUTPUT
+62 
+
+98 - Given a number N followed by first N numbers in ascending order with one change. Print the changed number.
+Sample Testcase :
+INPUT
+7
+1 2 3 4 5 6 8
+OUTPUT
+3 
+
+99 - Given 3 numbers a,b,c print a*b mod c.
+Sample Testcase :
+INPUT
+5 3 2
+OUTPUT
+1 
+
+100 - Given a number N, print the product of digits.
+Input Size : N <= 100000000000
+Sample Testcase :
+INPUT
+2143
+OUTPUT
+24 
+
